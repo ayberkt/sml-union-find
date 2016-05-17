@@ -1,0 +1,9 @@
+Library
+  signature UNION_FIND
+  structure UnionFind
+is
+  src/union_find.sig
+  src/union_find.sml
+
+  $/basis.cm
+  $/smlnj-lib.cm
