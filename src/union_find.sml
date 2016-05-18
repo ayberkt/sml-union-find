@@ -2,7 +2,7 @@ structure UnionFind : UNION_FIND =
 struct
 
   fun repeat x 0 = []
-    | repeat x n = x :: (repeat x (n-1))
+    | repeat x n = x :: repeat x (n-1)
 
   val elements : int vector ref = ref #[]
 
